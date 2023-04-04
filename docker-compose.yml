@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  reddittelegrambot:
+    image: reddittelegrambot
+    build:
+      context: .
+      dockerfile: ./Dockerfile

@@ -1,6 +1,6 @@
-API_ID=9257340
-API_HASH="83f3a9c114640d847a72457b5e4ef724"
+import os
 
-TELEGRAM_BOT_TOKEN="5587286875:AAE-Vh0zyvVJQkmxlhWsMhfTVwYfmbdmR2s"
+API_ID=os.environ.get('API_ID')
+API_HASH=os.environ.get('API_HASH')
+TELEGRAM_BOT_TOKEN=os.environ.get('TELEGRAM_BOT_TOKEN')
 
-CHANNEL_IDS = []
